@@ -13,6 +13,13 @@ group :development do
   gem 'sass-globbing', '~> 1.0.0'
   gem 'rb-fsevent', '~> 0.9'
   gem 'stringex', '~> 1.4.0'
+  gem 'flickraw'
+  gem 'builder', '> 2.0.0'
+  gem 'persistent_memoize'
+end
+
+group :jekyll_plugins do
+  gem 'octopress-social'
 end
 
 gem 'sinatra', '~> 1.4.2'
